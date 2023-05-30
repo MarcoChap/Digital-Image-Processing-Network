@@ -1,0 +1,50 @@
+Script started on 2023-05-16 00:08:56-07:00
+]0;marcosta@WWWSTU-P01:~/hw8marcosta@WWWSTU-P01:~/hw8> ./PhotoLab_server -p 35471
+./PhotoLab_server: preparing the server address...
+./PhotoLab_server: assigning the server name to the socket...
+./PhotoLab_server: listening on port 35471...
+./PhotoLab_server: Received message: PRINT
+./PhotoLab_server: Received message: AUTOTEST
+wilson.ppm was read successfully!
+aging.ppm was saved successfully. 
+aging.jpg was stored for viewing. 
+Aging tested!
+
+wilson.ppm was read successfully!
+bw.ppm was saved successfully. 
+bw.jpg was stored for viewing. 
+Black and White tested!
+
+wilson.ppm was read successfully!
+negative.ppm was saved successfully. 
+negative.jpg was stored for viewing. 
+Negative tested!
+
+wilson.ppm was read successfully!
+vflip.ppm was saved successfully. 
+vflip.jpg was stored for viewing. 
+VFlip tested!
+
+wilson.ppm was read successfully!
+hmirror.ppm was saved successfully. 
+hmirror.jpg was stored for viewing. 
+HMirror tested!
+
+wilson.ppm was read successfully!
+sharpen.ppm was saved successfully. 
+sharpen.jpg was stored for viewing. 
+Sharpen tested!
+
+wilson.ppm was read successfully!
+xRB.ppm was saved successfully. 
+xRB.jpg was stored for viewing. 
+ExRB tested!
+
+./PhotoLab_server: Sending response: OK.
+./PhotoLab_server: Received message: CLOSE
+./PhotoLab_server: Sending response: OK.
+exi   ^C
+]0;marcosta@WWWSTU-P01:~/hw8marcosta@WWWSTU-P01:~/hw8> exit
+exit
+
+Script done on 2023-05-16 00:10:09-07:00

@@ -1,0 +1,30 @@
+Script started on 2023-05-16 00:09:23-07:00
+]0;marcosta@WWWSTU-P01:~/hw8marcosta@WWWSTU-P01:~/hw8> ./PhotoLab_client -ip localhost -p 35471 -autotest -print[1P[1P[1P[1P[1P[1P[1P[1P[13@192.168.16.72[C[1P[C[C[C[C[C[C[C[C[C[C[C[C
+./PhotoLab_client: Creating a socket...
+./PhotoLab_client: Using port 35471...
+./PhotoLab_client: Preparing the server address...
+./PhotoLab_client: Connecting to the server...
+./PhotoLab_client: Sending a request PRINT
+./PhotoLab_client: Waiting for response...
+./PhotoLab_client: Received response: 
+
+Welcome! Here are the DIP operations:
+1. Aging
+2. Black and White
+3. Negative
+4. Vertical Flip
+5. Horizontal Mirror
+6. Sharpen
+7. Exchange Red and Blue channels
+
+./PhotoLab_client: Sending a request AUTOTEST
+./PhotoLab_client: Waiting for response...
+./PhotoLab_client: Received response: OK
+./PhotoLab_client: Sending a request CLOSE
+./PhotoLab_client: Waiting for response...
+./PhotoLab_client: Received response: OK
+./PhotoLab_client: Exiting...
+]0;marcosta@WWWSTU-P01:~/hw8marcosta@WWWSTU-P01:~/hw8> exit
+exit
+
+Script done on 2023-05-16 00:10:02-07:00

@@ -1,0 +1,12 @@
+PhotoLab_server runs a server on a given port that can serve one client at a time. When provided with the AUTOTEST command, it runs several DIP processes. When provided with the PRINT command, it
+provides the list of DIP processes. When provided with the CLOSE command, the server closes the socket with the client and waits for a new connection. PhotoLab_client provides these commands to
+PhotoLab_server.
+
+a) Two ways a server could handle multiple clients simultaneously are:
+
+    Using fork(): In this approach, the server creates multiple processes, each dedicated to servicing a specific client. When a client connects, a new process is created to handle its requests.
+
+    Using select(): The server operates on a single thread and processes events from multiple clients.
+
+b) The PhotoLab_server could use the fork() function to create new processes that would serve other clients. Additionally, when a client connects, the server can instruct it to connect to a different port, allowing the original port to remain open for new clients. This is convenient as clients would not have to repeatedly attempt to connect to the server on different ports and can instead connect to a single designated port.
+
